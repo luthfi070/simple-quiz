@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+  <router-link to="/kelas">Data Kelas</router-link>
+  <router-link to="/siswa">Data Siswa</router-link>
+  <router-view/>
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
